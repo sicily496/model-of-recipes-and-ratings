@@ -70,6 +70,8 @@ Then we conducted GridSearchCV to screen out the best hyperparameter in Decision
 
 <iframe src="assets/permut.html" width=500 height=400 frameBorder=0></iframe>
 
+**p_value**:
+
 #### Conclusion: We fail to accept the Null Hypothesis that Our model is fair, because the p_value is less than the significant level.
 
 ---
