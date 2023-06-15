@@ -56,9 +56,9 @@ Then we conducted GridSearchCV to screen out the best hyperparameter in Decision
 
 ## Fairness Model
 
-**Group X**: recipes with shorter description
+**Group X**: recipes with shorter description (length less than 190 characters)
 
-**Group Y**: recipes with longer description
+**Group Y**: recipes with longer description (length equal to or more than 190 characters)
 
 **Test Statistic**: accuracy(recipes with longer description) - accuracy(recipes with shorter description)
 
