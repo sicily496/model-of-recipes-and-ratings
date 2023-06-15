@@ -60,6 +60,8 @@ Then we conducted GridSearchCV to screen out the best hyperparameter in Decision
 
 **Group Y**: recipes with longer description (length equal to or more than 190 characters)
 
+**Evaluation Metric**: accuracy, because accuracy is a straightforward and easily understandable metric. It enables a clear comparison between the two groups and helps determine whether there are significant differences in accuracy. In this case, both groups (shorter and longer descriptions) should be treated equally. Also, the choice of accuracy as the evaluation metric aligns with the hypothesis testing approach employed since accuracy as the evaluation metric allows for the calculation of the test statistic and determination of the p-value.
+
 **Test Statistic**: accuracy(recipes with longer description) - accuracy(recipes with shorter description)
 
 **Null Hypothesis**: Our model is fair. Its accuracy for recipes with shorter description and recipes with longer description are roughly the same, and any differences are due to random chance.
