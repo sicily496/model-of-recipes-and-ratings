@@ -74,6 +74,6 @@ Then we conducted GridSearchCV to screen out the best hyperparameter in Decision
 
 **p_value**: 0.0
 
-#### Conclusion: We fail to accept the Null Hypothesis that our model is fair, because the p_value is less than the significant level. Therefore, we reject the null hypothesis in favor of the alternative hypothesis.
+#### Conclusion: We fail to accept the Null Hypothesis that our model is fair, because the p_value is less than the significant level. Therefore, we reject the null hypothesis in favor of the alternative hypothesis: its accuracy for recipes with longer description is higher than its accuracy with longer description.
 
 ---
